@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function promptUser(){
+                let userInput=prompt("hii");
+                if(userInput !=null){
+                    document.getElementById("result").innerHtml="hello"+userInput+",good day!"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="promptUser()">click on me</button>
+        <p id="result"></p>
+    </body>
+</html>
